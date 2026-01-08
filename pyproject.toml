@@ -1,7 +1,7 @@
 [project]
 name = "llm-structured-extractor"
 version = "0.1.0"
-description = "Structured Output & Function Calling"
+description = "Extract structured ticket fields from text using OpenRouter LLM with strict schema enforcement."
 requires-python = ">=3.10"
 
 dependencies = [

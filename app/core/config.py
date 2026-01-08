@@ -4,6 +4,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     openrouter_api_key: str= Field(..., env="OPENROUTER_API_KEY")
     openrouter_model: str= Field(..., env="OPENROUTER_MODEL")
+    openrouter_base_url: str= Field(..., env="OPENROUTER_BASE_URL")
     debug: bool= Field(..., env="DEBUG")
 
     class Config:
